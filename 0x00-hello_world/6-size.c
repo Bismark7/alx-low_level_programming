@@ -1,9 +1,8 @@
- 19 lines (19 sloc)  544 Bytes
 #include <stdio.h>
 /**
-main - A program that prints the size of a variable type
-Return: value  0 (Success)
- */
+*main - A program that prints the size of a variable type
+*Return: value  0 (Success)
+*/
 int main(void)
 {
 char a;
