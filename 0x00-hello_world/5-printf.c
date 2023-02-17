@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main- entry point with print function
- * Return- value 0
- */
-int main void()
+*main - A program that prints a string of code  using the printf function
+*Return: 0 (Success)
+*/
+int main(void)
 {
-printf("With proper grammar, but the outcome is a place of art.%s\n");
+printf("with proper grammar, but the outcome is a piece of art,%s\n");
 return (0);
-}
+}i
