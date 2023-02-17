@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main- Entry point
- * Return: value 0
+ * main- entry point with print function
+ * Return- value 0
  */
-int main(void)
+int main void()
 {
-printf("With proper grammar, but the outcome is a place of art.\n");
+printf("With proper grammar, but the outcome is a place of art.%s\n");
 return (0);
 }
