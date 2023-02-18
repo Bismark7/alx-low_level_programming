@@ -18,11 +18,11 @@ int main(void)
 	/* your code goes there */
 
 	if (n<0)
-	printf("is negative\n");
+	printf("if the number is less than 0: is negative\n");
 	else if (n>0)
-	printf("is positive\n");
+	printf("if the number is greater than 0: is positive\n");
 	else
-	printf("is zero\n");
+	printf("if the number is 0: is zero\n");
 
 	return (0);
 }
