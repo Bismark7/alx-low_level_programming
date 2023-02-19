@@ -5,8 +5,8 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - entry point
- * return : 0 (success)
+ * main - Entry point
+ * Return :Always 0 (success)
  */
 
 int main(void)
@@ -18,11 +18,11 @@ int main(void)
 	/* your code goes there */
 
 	if (n>0)
-	printf(" is positive %d\n", n);
+	printf("%d is positive \n", n);
 	else if (n<0)
-	printf("is negative %d\n", n);
+	printf("%dis negative \n", n);
 	else
-	printf("is zero %d\n", n);
+	printf("%dis zero \n", n);
 
-	return (0);
+	return(0);
 }
