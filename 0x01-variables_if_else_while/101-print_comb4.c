@@ -1,15 +1,16 @@
 #include <stdio.h>
 
 /**
- *main - entry point
- *return: 0 (success)
+ *main - Entry point
+ *
+ *Return: Always 0 (success)
  */
 
 int main(void)
 {
 	int a, b, c;
 
-	for (a = 0; b < 8; c++)
+	for (a = 0; a < 8; a++)
 	{
 		for (b = a + 1; b < 9; b++)
 		{
@@ -30,5 +31,5 @@ int main(void)
 
 	putchar('\n');
 
-	return(0);
+	return (0);
 }
