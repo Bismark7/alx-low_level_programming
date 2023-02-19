@@ -1,13 +1,13 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
 
 /**
- * main - entry point
- * return : 0 (success)
+ * main - Entry point
+ * Return : Always 0 (success)
  */
 
 int main(void)
@@ -21,7 +21,7 @@ int main(void)
 	int  lastDigit;
 	lastDigit = n % 10;
 	
-	printf("Last digit of %i is %i and is ", n, lastDigit);
+	printf("Last digit of %d is %d and is ", n, lastDigit);
 	if (lastDigit > 5){
 		printf("greater than 5\n");
 	}
