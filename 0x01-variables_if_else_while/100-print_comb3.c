@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - Entry point
  *
- * return:0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
 	int a, b, c;
 
-	for (a = 0; a< 100; a++)
+	for (a = 0; a < 100; a++)
 	{
 	b = a / 10;
 	c = a % 10;
