@@ -1,42 +1,42 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- * Return:0 (Success)
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-int i, j, k, l;
+	int a, b, c, d;
 
-for (i = 0; i <= 9; i++)
-{
-for (j = 0; j <= 9; j++)
-{
-for (k = 0; k <= 9; k++)
-{
-for (l = 0; l <= 9; l++)
-{
-if ((i < k) || ((i == k) && (j < l)))
-{
-putchar(i + '0');
-putchar(j + '0');
-putchar(' ');
-putchar(k + '0');
-putchar(l + '0');
+	for (a = 0; a <= 9; a++)
+	{
+		for (b = 0; b <= 9; b++)
+		{
+			for (c = 0; c <= 9; c++)
+			{
+				for (d = 0; d <= 9; d++)
+				{
+					if ((a < c) || ((a == c) && (b < d)))
+					{
+						putchar(a + '0');
+						putchar(b + '0');
+						putchar(' ');
+						putchar(c + '0');
+						putchar(d + '0');
 
-if (i != 9 || j != 8 || k != 9 || l != 9)
-{
-putchar(',');
-putchar(' ');
-}
-}
-}
-}
-}
-}
+						if (a != 9 || b != 8 || c != 9 || d != 9)
+						{
+							putchar(',');
+							putchar(' ');
+						}
+					}
+				}
+			}
+		}
+	}
 
-putchar('\n');
-
-return (0);
+	putchar('\n');
+	return (0);
 }
