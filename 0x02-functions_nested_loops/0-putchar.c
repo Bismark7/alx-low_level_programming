@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	long char a;
+	unsigned char a;
 
 	a = '_putchar';
 
