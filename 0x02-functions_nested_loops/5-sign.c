@@ -1,7 +1,7 @@
 #include "main.h"
 
  /**
-  *print_sign - Entry point
+  *print_sign - Print sign of a number if statement is true
   *@n: Number to check it sign
   *
   *Return: 1 if n is > 0 and 1- if n < 0  else 0 if equals 0
