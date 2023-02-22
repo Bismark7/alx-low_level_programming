@@ -6,6 +6,7 @@
   *
   *Return: 1 if n is > 0 and 1- if n < 0  else 0 if equals 0
   */
+
 int print_sign(int n)
 {
 	if (n > 0)
