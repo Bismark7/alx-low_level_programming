@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- *print_last_digit - 
+ *print_last_digit - prints the last digit of an interger
+ *@a: number to compute for the last digit
  *
- *
- *
- *
+ *Return: lastDigit (success)
  */
 int print_last_digit(int a)
 {
