@@ -2,8 +2,7 @@
 #include <unistd.h>
 
 /**
- *
- *main - print _putchar
+ *main - Entry point
  *
  *Return: Always 0;
  */
