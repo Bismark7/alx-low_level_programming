@@ -2,9 +2,9 @@
 
  /**
   *print_sign - check the sign of a number
-  *@n: Number to check it sign
   *
-  *Return: 1 if n is grester than 0 and 1- if n greater than 0  else 0 if n equals 0
+  *@n: Number to check it sign
+  *Return: 1 if n > 0 and 1- if n <  0  else 0 if n = 0
   */
 
 int print_sign(int n)
