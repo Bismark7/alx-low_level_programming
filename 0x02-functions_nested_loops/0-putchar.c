@@ -2,11 +2,11 @@
 #include <unistd.h>
 
 /**
-*main - print _putchar
-*
-*Return: Always 0 
-*/
-
+ *
+ *main - print _putchar
+ *
+ *Return: Always 0;
+ */
 int main(void)
 {
 	_putchar('_');
