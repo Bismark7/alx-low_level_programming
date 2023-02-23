@@ -1,11 +1,11 @@
 #include "main.h"
 
- /**
-  *print_sign - Check n
-  *
-  *@n: Number to check it sign
-  *Return: 1 if n > 0 and 1- if n <  0  else 0 if n = 0
-  */
+/**
+ *print_sign - Check n
+ *
+ *@n: Number to check it sign
+ *Return: 1 if n > 0 and 1- if n <  0  else 0 if n = 0
+ */
 
 int print_sign(int n)
 {
