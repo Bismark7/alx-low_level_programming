@@ -2,7 +2,7 @@
 
 /**
  *_puts - print string to stdout
- *str: parameter to _puts function
+ *@str: parameter to _puts function
  *
  *Return: void
  */
