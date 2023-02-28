@@ -25,8 +25,7 @@ int _atoi(char *s)
 	while (a < len && c == 0)
 	{
 		if (s[a] == '-')
-		++b;
-
+			++b;
 		if (s[a] >= '0' && s[a] <= '9')
 		{
 			deci = s[a] - '0';
@@ -35,13 +34,12 @@ int _atoi(char *s)
 			n = n * 10 + deci;
 			c = 1;
 			if (s[a + 1] < '0' || s[a + 1] > '9')
-			break;
+				break;
 			c = 0;
 		}
 		a++;
-		}
+	}
 	if (c == 0)
-return (0);
-
-return (n);
+		return (0);
+	return (n);
 }
