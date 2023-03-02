@@ -2,9 +2,9 @@
 #include <string.h>
 
 /**
- **_strcat - concatenates two strings dest and src
- *@*dest: first parameter
- *@*src: second parameter
+ *_strcat - concatenates two strings dest and src
+ *@dest: first parameter
+ *@src: second parameter
  *
  *Return: pointer
  */
