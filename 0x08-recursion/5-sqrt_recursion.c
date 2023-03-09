@@ -8,7 +8,8 @@ int _sqrt_recursion(int n);
  *@num: The number to find the square root of
  *@root: The root to be tested
  *
- *Return: If n has a natural square root - natural square root of n else does not
+ *Return: If n has a natural square root - natural square root of n
+ *else does not
  */
 
 int find_sqrt(int num, int root)
@@ -26,7 +27,8 @@ int find_sqrt(int num, int root)
  *_sqrt_recursion - returns the natural square root of a number
  *@n: number to  return the square root
  *
- *Return: If n has a natural square root - natural square root of n else does not
+ *Return: If n has a natural square root - natural square root of n
+ *else does not
  */
 
 int _sqrt_recursion(int n)
