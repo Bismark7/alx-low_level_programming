@@ -7,7 +7,7 @@
  * @argc: this count argument
  * @argv: array of string argument
  *
- * Return: 0 on success
+ * Return: 0 on success and 1 on error
  */
 
 int main(int argc, char *argv[])
@@ -16,11 +16,11 @@ int main(int argc, char *argv[])
 
 	if (argc == 3)
 	{
-	a = atoi(argv[1]);
-	b = atoi(argv[2]);
-	printf("%d\n", a * b);
-	return (0);
+		a = atoi(argv[1]);
+		b = atoi(argv[2]);
+		printf("%d\n", a * b);
+		return (0);
 	}
-	printf("argc has to be 3 count\n");
+	printf("Error\n");
 	return (1);
 }
