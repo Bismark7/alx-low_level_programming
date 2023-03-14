@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include "main.h"
 
-/*
- *main - Entry point
+/**
+ *main - Entry Point
  *@argc: number of argument on the command line
  *@argv: an array of string
  *
- *return: 0 on success;
+ *Return: 0 on success;
  */
 
 int main(int argc, char *argv[])
 {
 	(void) argc;
 	printf("%s\n", argv[0]);
-	return 0;
+	return (0);
 }
