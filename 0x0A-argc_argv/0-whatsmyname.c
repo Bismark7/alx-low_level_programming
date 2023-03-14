@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include "main.h>
 
 /*
  *main - Entry point
  *@argc: number of argument on the command line
  *@argv: an array of string
  *
- * return: 0 on success;
+ *return: 0 on success;
  */
 
 int main(int argc, char *argv[])
