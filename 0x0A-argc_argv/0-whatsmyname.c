@@ -1,16 +1,16 @@
-#include <stdlib.h>
 #include <stdio.h>
 
 /*
  *main - Entry point
- *@argc: Number of argument on the command line
- *@argv: An array of string
+ *@argc: number of argument on the command line
+ *@argv: an array of string
  *
- * return: 0;
+ * return: 0 on success;
  */
 
 int main(int argc, char *argv[])
 {
-	printf("argc%d argv[0]=%s\n",argc, argv[0]);
+	(void) argc;
+	printf("%s\n", argv[0]);
 	return 0;
 }
