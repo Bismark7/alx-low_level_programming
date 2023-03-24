@@ -19,7 +19,7 @@ int op_add(int a, int b)
 }
 
 /**
- * op_add - Returns the sum of two numbers
+ * op_sub - Returns the sum of two numbers
  * @a: The first number
  * @b: The second number
  *
@@ -28,24 +28,24 @@ int op_add(int a, int b)
 
 int op_sub(int a, int b)
 {
-        return (a - b);
+	return (a - b);
 }
 
 /**
- * op_add - Returns the sum of two numbers
- * @a: The first number
- * @b: The second number
+ *op_mul - Returns the sum of two numbers
+ *@a: The first number
+ *@b: The second number
  *
- * Return: The sum of a and b
+ *Return: The sum of a and b
  */
 
 int op_mul(int a, int b)
 {
-        return (a * b);
+	return (a * b);
 }
 
 /**
- * op_add - Returns the sum of two numbers
+ * op_div - Returns the sum of two numbers
  * @a: The first number
  * @b: The second number
  *
@@ -54,11 +54,11 @@ int op_mul(int a, int b)
 
 int op_div(int a, int b)
 {
-        return (a / b);
+	return (a / b);
 }
 
 /**
- * op_add - Returns the sum of two numbers
+ * op_mod - Returns the sum of two numbers
  * @a: The first number
  * @b: The second number
  *
@@ -67,5 +67,5 @@ int op_div(int a, int b)
 
 int op_mod(int a, int b)
 {
-        return (a % b);
+	return (a % b);
 }
