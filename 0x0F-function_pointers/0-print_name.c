@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "function_pointers.h"
 
-/*
+/**
  *print_name - prints a name
  *@nmae: char pointer
  *@f: void function
