@@ -3,7 +3,7 @@
 
 /**
  *print_name - prints a name
- *@nmae: char pointer
+ *@name: char pointer
  *@f: void function
  *
  *Return: void
